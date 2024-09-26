@@ -49,25 +49,33 @@ header {
     transform: translateY(40px);
 }
 
-li {
+.items {
+    
     display: flex;
     list-style-type: none;
     justify-content: center;
-    align-items: center;
+    
     width: 150px;
     padding: 10px;
     margin: 5px;
     transform: translateY(20px);
-}
 
-
-
-.item {
-    color: black;
-    text-decoration: none;
-}
-
-.item:hover {
-    background-color: hsl(--color-buttom);
+    border: 1px solid;
+    cursor: pointer;
     
 }
+
+a{
+    
+}
+
+
+
+.items:hover {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--color-buttom);
+    transform: scale(1.02);
+}
+
