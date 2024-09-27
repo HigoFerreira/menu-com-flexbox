@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans',Verdana, sans-serif;
+    font-family: 'Open Sans', Verdana, sans-serif;
 }
 
 
@@ -11,13 +11,12 @@ main {
 
 }
 
-.home{
-   
+.home {
+
     width: 300px;
     height: 450px;
     border-radius: 15px;
     border: 1px solid;
-    color: ;
 }
 
 
@@ -26,29 +25,27 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     padding-top: 25px;
 }
 
 
-.img-bank{
+.img-bank {
     width: 30px;
     margin: 5px;
 }
 
-.title{
+.title {
     font-size: 35px;
 }
 
 
-.section{
-    
+.section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transform: translateY(40px);
-    
+
 }
 
 
@@ -60,6 +57,7 @@ header {
     justify-content: center;
     align-items: center;
     margin: 5px;
+    border: none;
     border-radius: 2px;
     width: 100px;
     height: 35px;
@@ -67,13 +65,15 @@ header {
     cursor: pointer;
 }
 
-a{
-    
+.buttom {
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+
 }
 
 
-.sign-up{
-    
+.sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,19 +81,9 @@ a{
     transform: translateY(90px);
 }
 
-.btn-sign-up{
+.btn-sign-up {
     background-color: var(--color-button);
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000000;
-    width: 100px;
-    height: 20px;
-    transform: scale(1.02s ease-in-out);
-    
-}
-
-.btn-sign-up:hover{
-    cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
