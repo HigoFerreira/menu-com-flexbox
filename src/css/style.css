@@ -11,14 +11,6 @@ main {
 
 }
 
-.home {
-
-    width: 300px;
-    height: 450px;
-    border-radius: 15px;
-    border: 1px solid;
-}
-
 
 header {
     width: 100%;
@@ -28,6 +20,12 @@ header {
     padding-top: 25px;
 }
 
+.home {
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    border: 1px solid;
+}
 
 .img-bank {
     width: 30px;
@@ -40,50 +38,59 @@ header {
 
 
 .section {
+    background-color: brown;
+    width: 60%;
+    height: 70%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
-    align-items: center;
     transform: translateY(40px);
-
 }
 
 
-
-.items {
+.btn {
     background-color: var(--color-button);
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
+    width: 80px;
+    height: 40px;
     border: none;
     border-radius: 2px;
-    width: 100px;
-    height: 35px;
-    font-size: 12px;
+}
+
+
+.items{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+   
+}
+
+.btn:hover{
+    color:white;
+    transform: scale(1.10);
     cursor: pointer;
 }
 
-.buttom {
-    text-decoration: none;
-    color: #000000;
-    font-size: 13px;
 
-}
+/* .itens:hover {
+    color:white;
+    transform: scale(1.10);
+    cursor: pointer;
+} */
 
 
-.sign-up {
+
+
+/* .sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    transform: translateY(90px);
-}
+    transform: translateY(80px);
+} */
 
-.btn-sign-up {
+/* .btn-sign-up {
     background-color: var(--color-button);
     text-decoration: none;
     border: none;
     border-radius: 5px;
-}
+} */

@@ -1,7 +1,8 @@
 :root{
     
-    --background-color:hsl(100, 20%, 100%);
+    --bg-color:hsl(100, 20%, 100%);
 
     --color-button:hsl(126, 74%, 70%);
+
 
 }
