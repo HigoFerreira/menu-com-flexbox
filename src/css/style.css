@@ -21,76 +21,82 @@ header {
 }
 
 .home {
-    width: 300px;
+
+    width: 250px;
     height: 450px;
     border-radius: 15px;
     border: 1px solid;
 }
 
 .img-bank {
-    width: 30px;
+    width: 25px;
     margin: 5px;
 }
 
 .title {
-    font-size: 35px;
+    font-size: 25px;
+    letter-spacing: -2px;
 }
 
 
 .section {
-    background-color: brown;
-    width: 60%;
-    height: 70%;
-    margin: auto;
     display: flex;
-    
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
     transform: translateY(40px);
 }
 
 
+
 .btn {
-    background-color: var(--color-button);
-    width: 80px;
-    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100px;
+    margin: 4px;
     border: none;
-    border-radius: 2px;
 }
 
 
-.items{
+.items {
     text-decoration: none;
     color: black;
-    font-weight: 700;
-   
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    width: 100px;
+    padding: 10px 10px;
 }
 
-.btn:hover{
-    color:white;
-    transform: scale(1.10);
-    cursor: pointer;
+.items:hover{
+    background-color: var(--color-button);
+    color: white;
+    transform: scale(1.02);
 }
 
 
-/* .itens:hover {
-    color:white;
-    transform: scale(1.10);
-    cursor: pointer;
-} */
-
-
-
-
-/* .sign-up {
+.sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(80px);
-} */
+    width: 100%;
+    transform: translateY(60px);
+}
 
-/* .btn-sign-up {
-    background-color: var(--color-button);
+.btn-sign-up {
     text-decoration: none;
-    border: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    margin: auto;
+    padding: 10px 10px;
     border-radius: 5px;
-} */
+}
+
+.btn-sign-up:hover{
+    background-color: var(--color-button);
+    color: white;
+    transform: scale(1.02);
+}
