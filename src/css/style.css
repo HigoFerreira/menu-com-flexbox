@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', Verdana, sans-serif;
+    background-color: rgb(219, 219, 218);
 }
 
 
@@ -8,7 +9,6 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
 
 
@@ -21,11 +21,10 @@ header {
 }
 
 .home {
-
-    width: 250px;
-    height: 450px;
-    border-radius: 15px;
-    border: 1px solid;
+    background-color: ;
+    width: 220px;
+    height: 430px;
+    background-color: white;
 }
 
 .img-bank {
@@ -45,7 +44,7 @@ header {
     align-items: center;
     flex-direction: column;
     margin: 5px;
-    transform: translateY(40px);
+    transform: translateY(37px);
 }
 
 
@@ -67,7 +66,7 @@ header {
     font-weight: 500;
     margin: auto;
     width: 100px;
-    padding: 10px 10px;
+    padding: 8px 10px;
 }
 
 .items:hover{
