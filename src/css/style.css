@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Open Sans', Verdana, sans-serif;
     background-color: rgb(219, 219, 218);
 }
@@ -21,7 +21,6 @@ header {
 }
 
 .home {
-    background-color: ;
     width: 220px;
     height: 430px;
     background-color: white;
@@ -98,4 +97,4 @@ header {
     background-color: var(--color-button);
     color: white;
     transform: scale(1.02);
-}
+} */

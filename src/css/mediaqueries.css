@@ -1,23 +1,116 @@
-@media (max-width:600px){
+
+@media (min-width:768px) {
+    body {
+        font-family: 'Open Sans', Verdana, sans-serif;
+        background-color: rgb(241, 241, 240);
+    }
+
+    main {
+        background-color: cadetblue;
+        display: flex;
+        flex-direction: row;
+        margin: 15px;
     
+    }
+
+
+    header {
+        
+        display: flex;
+        width: 50%;
+        
+        padding: 10px;
+    }
+
+
+    .home {
+        background-color: cadetblue;
+        display: flex;
+        width: 195vh;
+        
+        background-color: white;
+    }
+
+
+    .img-bank {
+        width: 25px;
+        margin: 5px;
+    }
+
+
+    .title {
+        font-size: 25px;
+        letter-spacing: -2px;
+    }
+
+    .img-back,
+    .title{
+        margin: 0 5px;
+    }
+
+
+    .section {
+        background-color: brown;
+        display: flex;
+        width: 350px;
+        margin: auto;
+        padding-left: 40px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        
+        height: 30px;
+        padding: 5px;
+        border: none;
+    }
+
+    .items {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+
+    
+    .items:hover{
+        background-color: var(--color-button);
+        color: white;
+        transform: scale(1.02);
+    }
+
+    
+
+    .sign-up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-sign-up {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .btn-sign-up:hover{
+        background-color: var(--color-button);
+        color: white;
+        transform: scale(1.02);
+    
+
+
 }
 
 
-@media (min-width:600px){
-    
-}
+@media (min-width:992px) {}
 
 
-@media (min-width:768px){
-    
-}
-
-
-@media (min-width:992px){
-    
-}
-
-
-@media (min-width:1200px){
-    
-}
+@media (min-width:1200px) {}
