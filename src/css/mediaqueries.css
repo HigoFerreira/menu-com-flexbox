@@ -22,51 +22,61 @@
 
 
     .home {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 95%;
         background-color: white;
 
     }
 
     .img-bank {
-        width: 25px;
-        height: 25px;
+        width: 50px;
+        height: 50px;
         margin: 5px;
     }
 
-
     .title {
-        font-size: 25px;
+        font-size: 35px;
         letter-spacing: -2px;
         padding: 4px 10px;
+        
     }
+
+
+    .img-bank,
+    .title{
+        transform: translateY(60px);
+    }
+
 
     .section {
-
-        justify-content: center;
-        align-content: center;
+        
         display: flex;
+        justify-content: center;
+       
         flex-direction: column;
         margin: 10px;
-        transform: translateY(35px);
+        transform: translateY(50%);
     }
+
 
     .btn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
         background-color: white;
+        justify-content: center;
         border: none;
+        width: 50%;
+        height: 57px;
     }
+    
 
     .items {
         text-decoration: none;
-        color: black;
-        font-size: 12px;
-        font-weight: 500;
-        padding: 10px 15px;
+        align-items: center;
+        border: none;
+        font-size: 30px;
+        width: 100%;
+        padding: 17px;
     }
+
 
     .items:hover {
         background-color: var(--color-button);
@@ -74,25 +84,28 @@
         transform: scale(1.02);
     }
 
+
     .sign-up {
+        
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 8px 5px;
-        transform: translateY(50px);
-
+        width: 100%;
+        transform: translateY(200px);
     }
+
 
     .btn-sign-up {
         text-decoration: none;
         justify-content: center;
-        color: black;
-        font-size: 12px;
-        font-weight: 500;
-        padding: 7px 10px;
-        border-radius: 5px;
+        
+        
+        font-size: 20px;
+        width: 100%;
+        padding: 16px;
+        border-radius: 7px;
+    
     }
+
 
     .btn-sign-up:hover {
         background-color: var(--color-button);
@@ -113,7 +126,6 @@
     main {
         display: flex;
         flex-direction: column;
-
     }
 
 
@@ -122,54 +134,52 @@
         align-items: center;
         width: 40%;
         margin: auto;
-        transform: translateY(20px);
+       
     }
 
 
     .home {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 95%;
         background-color: white;
 
     }
 
     .img-bank {
-        width: 25px;
-        height: 25px;
+        width: 50px;
+        height: 50px;
         margin: 5px;
     }
 
 
     .title {
-        font-size: 25px;
+        font-size: 35px;
         letter-spacing: -2px;
         padding: 4px 10px;
     }
 
     .section {
-
-        justify-content: center;
-        align-content: center;
         display: flex;
+        justify-content: center;
         flex-direction: column;
         margin: 10px;
-        transform: translateY(35px);
+        
     }
 
     .btn {
+        background-color: white;
         display: flex;
         justify-content: center;
-        align-items: center;
+        
 
-        background-color: white;
         border: none;
     }
 
     .items {
         text-decoration: none;
         color: black;
-        font-size: 12px;
-        font-weight: 500;
+        font-size: 30px;
+        
         padding: 10px 15px;
     }
 
@@ -182,20 +192,14 @@
     .sign-up {
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 8px 5px;
-        transform: translateY(50px);
+        transform: translateY(200px);
 
     }
 
     .btn-sign-up {
         text-decoration: none;
         justify-content: center;
-        color: black;
-        font-size: 12px;
-        font-weight: 500;
-        padding: 7px 10px;
+        padding: 16px 10px;
         border-radius: 5px;
     }
 
@@ -313,6 +317,123 @@
 }
 
 
+@media (min-width:570px) {
+    body {
+        font-family: 'Open Sans', Verdana, sans-serif;
+        background-color: rgb(241, 241, 240);
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+
+
+    header {
+        display: flex;
+        padding: 10px;
+    }
+
+
+    .home {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+
+
+    .img-bank {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+
+
+    .title {
+        font-size: 35px;
+        letter-spacing: -2px;
+        padding: 4px 10px;
+    }
+
+
+    .img-bank,
+    .title {
+        margin: 0 px;
+    }
+
+
+    .section {
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+
+        margin: 30px;
+        transform: translateY(50px);
+
+    }
+
+
+    .btn {
+
+        background-color: white;
+        border: none;
+        width: 20%;
+        height: 50px;
+
+    }
+
+
+
+    .items {
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        font-weight: 700;
+        width: 100%;
+        padding: 15px;
+
+    }
+
+
+
+    .items:hover {
+        background-color: var(--color-button);
+        color: white;
+        transform: scale(1.02);
+
+    }
+
+
+    .sign-up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 8px 5px;
+
+    }
+
+    .btn-sign-up {
+        text-decoration: none;
+        justify-content: center;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+
+
+    .btn-sign-up:hover {
+        background-color: var(--color-button);
+        color: white;
+        transform: scale(1.02);
+
+    }
+}
+
+
 @media (min-width:768px) {
     body {
         font-family: 'Open Sans', Verdana, sans-serif;
@@ -362,21 +483,19 @@
     .section {
         background-color: brown;
         display: flex;
+        justify-content: center;
 
-        margin: auto;
+        margin: 30px;
         transform: translateY(50px);
 
     }
 
 
     .btn {
+
         background-color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 7px;
         border: none;
-        width: 150px;
+        width: 20%;
         height: 50px;
 
     }
@@ -384,24 +503,22 @@
 
 
     .items {
-        display: flex;
         justify-content: center;
         align-items: center;
-        background-color: aqua;
-        text-decoration: none;
-        color: black;
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 700;
-        margin: auto;
-        
-       
+        width: 100%;
+        padding: 15px;
+
     }
+
+
 
     .items:hover {
         background-color: var(--color-button);
         color: white;
         transform: scale(1.02);
-        
+
     }
 
 
