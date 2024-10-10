@@ -167,9 +167,7 @@
 
     .items {
         text-decoration: none;
-        color: black;
         font-size: 30px;
-
         padding: 10px 15px;
     }
 
@@ -294,155 +292,32 @@
     .btn-sign-up {
         text-decoration: none;
         justify-content: center;
-        
-        padding: 13px 10px;
+    
         border-radius: 5px;
-    }
-
-    .btn-sign-up:hover {
-        background-color: var(--color-button);
-        color: white;
-        transform: scale(1.02);
-    }
-
-}
-
-
-@media (min-width:570px) {
-    body {
-        font-family: 'Open Sans', Verdana, sans-serif;
-        background-color: rgb(241, 241, 240);
-    }
-
-    main {
-        display: flex;
-        flex-direction: row;
-        margin: 10px;
-    }
-
-
-    header {
-        display: flex;
-        padding: 10px;
-    }
-
-
-    .home {
-        width: 100%;
-        height: 100%;
-        background-color: white;
-    }
-
-
-    .img-bank {
-        width: 40px;
-        height: 40px;
-        margin: 5px;
-    }
-
-
-    .title {
-        font-size: 35px;
-        letter-spacing: -2px;
-        padding: 4px 10px;
-    }
-
-
-    .img-bank,
-    .title {
-        margin: 0 px;
-    }
-
-
-    .section {
-        background-color: brown;
-        display: flex;
-        justify-content: center;
-
-        margin: 30px;
-        transform: translateY(50px);
-
-    }
-
-
-    .btn {
-
-        background-color: white;
-        border: none;
-        width: 20%;
-        height: 50px;
-
-    }
-
-
-
-    .items {
-        justify-content: center;
-        align-items: center;
-        font-size: 17px;
-        font-weight: 700;
-        width: 100%;
         padding: 15px;
-
     }
-
-
-
-    .items:hover {
-        background-color: var(--color-button);
-        color: white;
-        transform: scale(1.02);
-
-    }
-
-
-    .sign-up {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 8px 5px;
-
-    }
-
-    .btn-sign-up {
-        text-decoration: none;
-        justify-content: center;
-        color: black;
-        font-size: 12px;
-        font-weight: 500;
-        padding: 10px 10px;
-        border-radius: 5px;
-    }
-
 
     .btn-sign-up:hover {
         background-color: var(--color-button);
         color: white;
         transform: scale(1.02);
-
+        
     }
+
 }
 
 
 @media (min-width:768px) {
     body {
-        font-family: 'Open Sans', Verdana, sans-serif;
         background-color: rgb(241, 241, 240);
+        font-family: 'Open Sans', Verdana, sans-serif;
     }
 
     main {
-        display: flex;
-        flex-direction: row;
-        margin: 10px;
+        margin: 20px;
     }
 
-
-    header {
-        display: flex;
-        padding: 10px;
-    }
-
+   
 
     .home {
         width: 100%;
@@ -452,14 +327,14 @@
 
 
     .img-bank {
-        width: 40px;
-        height: 40px;
+        width: 65px;
+        height: 65px;
         margin: 5px;
     }
 
 
     .title {
-        font-size: 35px;
+        font-size: 45px;
         letter-spacing: -2px;
         padding: 4px 10px;
     }
@@ -467,69 +342,56 @@
 
     .img-bank,
     .title {
-        margin: 0 px;
+        transform: translateY(100px)
+        
     }
 
 
     .section {
-        background-color: brown;
-        display: flex;
-        justify-content: center;
-
-        margin: 30px;
-        transform: translateY(50px);
-
+        height: 700px;
+        transform: translateY(200px);
     }
-
-
+    
+    
     .btn {
-
         background-color: white;
         border: none;
-        width: 20%;
-        height: 50px;
-
+        width: 30%;
+        height: 80px;
+        margin: 20px;
     }
-
-
-
+    
+    
     .items {
-        justify-content: center;
-        align-items: center;
-        font-size: 17px;
-        font-weight: 700;
+        font-size: 40px;
+        font-weight: 600;
         width: 100%;
-        padding: 15px;
-
+        padding: 18px;
     }
-
 
 
     .items:hover {
         background-color: var(--color-button);
         color: white;
         transform: scale(1.02);
-
     }
-
 
     .sign-up {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 8px 5px;
-
+        margin: 10px;
+        padding: 10px 5px;
+        transform: translateY(150%);
     }
 
     .btn-sign-up {
         text-decoration: none;
         justify-content: center;
-        color: black;
-        font-size: 12px;
-        font-weight: 500;
+        
+        font-size: 25px;
+        font-weight: 700;
         padding: 10px 10px;
         border-radius: 5px;
+        padding: 15px ;
     }
 
 
@@ -537,11 +399,9 @@
         background-color: var(--color-button);
         color: white;
         transform: scale(1.02);
-
     }
-}
+} 
 
 /* @media (min-width:992px){}*/
-
 
 /* @media (min-width:1200px){}*/
